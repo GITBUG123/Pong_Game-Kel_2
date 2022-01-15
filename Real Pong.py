@@ -196,5 +196,3 @@ while True:
        raket_AI_up()
    elif raket_AI.ycor() > bola.ycor() and abs(raket_AI.ycor() - bola.ycor()) > 20.5:
        raket_AI_down()
-
-   if poin_ai == 10 or poin_player == 10:
